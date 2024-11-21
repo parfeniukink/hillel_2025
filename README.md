@@ -1,1 +1,3 @@
 This is the first phase of Python Pro Course learning curve
+
+...
