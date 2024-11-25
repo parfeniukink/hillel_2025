@@ -1,0 +1,12 @@
+- Porject from the lesson is set up
+- `students: list[dict]` global variable exists to simulate the database (_the simulated storage for all the students_)
+  - The `Student` data structure has next feild for the information
+    - `id: int` - unique identifier of the student
+    - `name: str` - student's name
+    - `marks: list[int]` - list of marks
+    - `info: str` - detailed information of the student
+- Next functions are added to the application:
+  - `main()` function is an entryopint for the application
+  - `show_students()` function to represent all the students
+  - `show_student(id: int)` function to show the student by the `id`
+  - `add_student(name: str, details: str | None)` function to add another student. The `name` is required but the `detailes` is optional.
