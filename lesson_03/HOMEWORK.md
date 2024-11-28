@@ -1,0 +1,6 @@
+- "Add Mark" feature is implemented.
+  - Detailed: You have to create User Interface for that feature in existing CLI application. Turn on your imagination
+- "Partial Update" feature is implemented. Workflow:
+  - if User enters the name and marks - update the whole student in the storage
+  - if User enters only the name - update only the name of student
+  - if User enters only the marks - update only the marks of student
