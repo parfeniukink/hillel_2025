@@ -16,7 +16,7 @@ def http_request(url: str) -> str:
 
 async def ahttp_request(url: str) -> str:
     print(f"requesting {url}")
-    response: requests.Response = await asyncio.to_thread(requests.get, url)
+    response: requests.Response = await asyncio.to_thread(requests.patch, url)
     return response.json()["name"]
 
 
