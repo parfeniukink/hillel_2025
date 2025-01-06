@@ -1,5 +1,7 @@
 # Homework
 
+## Time Logger
+
 Write a context manager that measures and logs the execution time of a code block inside it. Use the time module for timing and the logging module for logging.
 Test it with different pieces of code.
 
